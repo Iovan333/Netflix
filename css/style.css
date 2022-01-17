@@ -1,0 +1,384 @@
+body{
+  margin: 0;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  background-color: #010101;
+}
+/* title */
+#title{
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('./images/netflixpic.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size:  cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 110vh;
+  padding: 0 7%;
+
+}
+/* navbar */
+.btn{
+  background-color: #e50914;
+  color: #fff;
+  padding: 8px 15px;
+}
+/* heading */
+.heading{
+  width: 80%;
+  margin: 5% auto;
+}
+.h1s{
+  font-size: 3.125rem;
+  width: 65%;
+  margin: auto;
+  font-weight: bold;
+}
+.pa1{
+  font-size: 25px;
+}
+.email{
+  padding: 15px;
+  width: 80%;
+  margin: auto;
+}
+/* features */
+#features1{
+  text-align: left;
+  padding: 3% 11%;
+}
+.h1s2{
+  font-size: 3.1rem;
+  font-weight: bold;
+  position: relative;
+  top: 30%;
+}
+.h1s3{
+  font-size: 3.1rem;
+  font-weight: bold;
+  position: relative;
+  top: 30%;
+}
+.pa2{
+  font-size: 1.2rem;
+  padding-bottom: 10px;
+}
+.h2s{
+  font-size: 1.6rem;
+  position: relative;
+  top: 30%;
+}
+.h2s3{
+  font-size: 1.6rem;
+  position: relative;
+  top: 30%;
+}
+/* features2 */
+.h3s{
+  font-size: 1.6rem;
+  font-weight: 70;
+}
+.h1s3{
+  font-size: 3rem;
+  font-weight: bold;
+}
+.img4{
+  margin: 1% 0 -4% -18%;
+  width: 100%;
+}
+/* features3 */
+.div1{
+  width: 60%;
+}
+.h1s4{
+  font-size: 3rem;
+  font-weight: bold;
+}
+.h2s4{
+  font-size: 1.6rem;
+}
+/* questions */
+#questions{
+  padding: 3% 4%;
+}
+.h1s5{
+  font-size: 3rem;
+  font-weight: bold;
+}
+.ques{
+  padding: 3% 17%;
+  text-align: left;
+}
+.q{
+  background-color: rgb(46, 45, 45);
+  margin-bottom: 7px;
+  padding: 2% 3%;
+}
+.pa3{
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+.email1{
+  padding: 15px;
+  width: 75%;
+  margin: auto;
+}
+@media(min-width: 600px) and (max-width: 750px){
+  .imgcol {
+    position: relative;
+    top: 120px;
+  }
+  .co2 {
+    position: relative;
+    bottom: 390px;
+  }
+}
+@media(min-width: 750px) and (max-width: 992px){
+  .imgcol {
+    position: relative;
+    top: 120px;
+  }
+  .co2 {
+    position: relative;
+    bottom: 450px;
+  }
+}
+@media(min-width:992px) and (max-width: 1330px){
+   .co1{
+    text-align: left;
+  }
+  .co2{
+    text-align: left;
+  }
+  .div1{
+    text-align: left;
+    width: 60%;
+  }
+  #questions{
+    padding: 3% 0;
+  }
+  .h1s5{
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  .ques{
+    padding: 3% 15%;
+    text-align: left;
+  }
+  .h3s1{
+    font-size: 1.5rem;
+  }
+  .pa3{
+    font-size: 1.3rem;
+    font-weight: 500;
+    width: 90%;
+    margin: 0 auto 10px;
+  }
+  .email1{
+    padding: 10px;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+  }
+}
+@media(min-width: 600px) and (max-width: 992px){
+  .div1{
+    text-align: center;
+    width: 100%;
+  }
+  #questions{
+    padding: 3% 0;
+  }
+  .h1s5{
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .ques{
+    padding: 3% 11%;
+    text-align: left;
+  }
+  .h3s1{
+    font-size: 1.2rem;
+  }
+  .pa3{
+    font-size: 1.3rem;
+    font-weight: 500;
+    width: 90%;
+    margin: 0 auto 10px;
+  }
+  .email1{
+    padding: 10px;
+    width: 90%;
+    display: block;
+    margin: auto;
+    text-align: center;
+  }
+  .btn1{
+    background-color: #e50914;
+    color: #fff;
+    padding: 5px 15px;
+    font-size: 15px;
+  }
+}
+@media(min-width: 600px) and (max-width: 1330px){
+  #title{
+    height: 140vh;
+  }
+  .h1s2{
+    font-size: 2.5rem;
+  }
+  .h1s3{
+    font-size: 2.5rem;
+  }
+  .h2s{
+    font-size: 1.25rem ;
+  }
+  .h2s3{
+    font-size: 1.25rem;
+  }
+  .img3{
+    width: 80%;
+  }
+  .img4{
+    width: 80%;
+    margin: 0;
+  }
+  .heading{
+    width: 100%;
+  }
+  #features1{
+    padding: 3% 5%;
+    text-align: center;
+  }
+  .h2s{
+    position: relative;
+    z-index: 1;
+  }
+  .h2s3{
+    position: relative;
+    z-index: 1;
+  }
+  .h1s{
+    width: 80%;
+  }
+  .h1s4{
+    font-size: 2.5rem;
+  }
+  .h2s4{
+    font-size: 1.25rem;
+  }
+}
+@media(max-width: 600px){
+  #title{
+    height: 100vh;
+  }
+  .heading{
+    width: 100%;
+  }
+  #features1{
+    padding: 3% 5%;
+  }
+  .h1s{
+    font-size: 30px;
+    width: 100%;
+  }
+  .h1s2{
+    font-size: 30px;
+  }
+  .h1s3{
+    font-size: 30px;
+    margin-top: 20px;
+  }
+  .h2s{
+    font-size: 17px;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+  }
+  .h2s3{
+    font-size: 17px;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+  }
+  .pa1{
+    font-size: 17px;
+  }
+  .email{
+    width: 100%;
+  }
+  .logo{
+    height: 85px;
+    width: 85px;
+  }
+  .row{
+    text-align: center;
+  }
+  .img3{
+    width: 100%;
+  }
+  .img4{
+    width: 100%;
+    margin: 0;
+  }
+  .imgcol{
+    position: relative;
+    top: 120px;
+  }
+  .co2{
+    position: relative;
+    bottom: 390px;
+  }
+  .h1s3{
+    font-size: 30px;
+  }
+  .div1{
+    text-align: center;
+    width: 100%;
+  }
+  .h1s4{
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .h2s4{
+    font-size: 17px;
+    font-weight: bold;
+  }
+  /* questions */
+  #questions{
+    padding: 3% 0;
+  }
+  .h1s5{
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  .ques{
+    padding: 3% 0;
+    text-align: left;
+  }
+  .h3s1{
+    font-size: 1.2rem;
+  }
+  .pa3{
+    font-size: 1.1rem;
+    font-weight: 500;
+    width: 70%;
+    margin: 0 auto 10px;
+  }
+  .email1{
+    padding: 10px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+  .btn1{
+    background-color: #e50914;
+    color: #fff;
+    padding: 5px 15px;
+    font-size: 15px;
+  }
+}
+hr{
+  border-color: rgb(51, 50, 50);
+  border-style: solid;
+  border-width: 5px;
+}
